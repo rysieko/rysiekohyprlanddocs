@@ -1,2 +1,2 @@
 # myhyprlanddocs
-folder must be in your home dir for copy.sh to work
+folder must be in your home dir and named myhyprlanddocs for copy.sh to work
