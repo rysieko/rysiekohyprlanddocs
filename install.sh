@@ -1,16 +1,16 @@
 #!/bin/bash
-x = 0
-z = 0
+x=0
+z=0
 echo "do you want to install hyprland and copy dots?" 
-select y in yes onlydots no 
+select y in yes onlydots quit 
 do
 case $y in
 "yes") x=$((x + 1)) ;;
 "onlydots") z=$((z + 1)) ;; 
-"no") echo "Jak nie to nie" && exit ;;
+"quit") echo "Jak nie to nie" && exit ;;
 *) echo "chose an valid option" ;;
 esac
-if [ $x -eq 1 ]
+if  [ $x -eq 1 ] 
 then
 echo "Instaling"
 sudo pacman -Syu #updating system
@@ -22,7 +22,7 @@ hyprpanel useTheme "/usr/share/hyprpanel/themes/macchiato.json"
 hyprctl setcursor nordzy-hyprcursors #TEMP
 xcursor -set nordzy-cursors #TEMP
 fi
-if [ $z -eq 1 ]
+if  [ $z -eq 1 ] 
 then
 echo "coping dots"
 cp -r ~/rysiekohyprlanddocs/*.conf ~/.config/hypr/ #copying hyprland dots 
