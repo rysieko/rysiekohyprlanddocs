@@ -17,13 +17,13 @@ sudo pacman -Syu #updating system
 sudo pacman -S wireplumber pipewire sddm hyprpolkitagent xdg-desktop-portal-hyprland qt6-wayland noto-fonts hyprpaper cliphist iwgtk hyprland hyprlancher #instaling system packages
 sudo yay -S nordzy-cursors nordzy-hyprcursors ags-hyprpanel-git hyprls-git #installing AUR packages
 echo "coping dots"
-cp -r ~/myhyprlanddocs/*.conf ~/.config/hypr/ #copying hyprland dots 
+cp -r ~/rysiekohyprlanddocs/*.conf ~/.config/hypr/ #copying hyprland dots 
 hyprpanel useTheme "/usr/share/hyprpanel/themes/macchiato.json"
 fi
 if [ $z -eq 1 ]
 then
 echo "coping dots"
-cp -r ~/myhyprlanddocs/*.conf ~/.config/hypr/ #copying hyprland dots 
+cp -r ~/rysiekohyprlanddocs/*.conf ~/.config/hypr/ #copying hyprland dots 
 hyprpanel useTheme "/usr/share/hyprpanel/themes/macchiato.json"
 fi
 done
