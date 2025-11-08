@@ -19,4 +19,4 @@ pkg that install.sh instals (if you only copy docs you will need it) :
         -iwgtk
         -hyprls-git #AUR
         -udiskie #its optional but it auto mounts flash drivers
-Gtk theme is https://github.com/EliverLara/Nordic
+--Gtk theme is https://github.com/EliverLara/Nordic
