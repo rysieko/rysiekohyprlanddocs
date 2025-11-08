@@ -1,9 +1,8 @@
-# myhyprlanddocs
-folder must be in your home dir and named myhyprlanddocs for install.sh to work
-needed pkg : 
-nordzy-cursors #xcursorpkg (AUR) 
-        -https://aur.archlinux.org/packages/nordzy-hyprcursors #same but hyprcursor (stil AUR) also need https://github.com/EliverLara/Nordic as gtk theme
-        -hyprland #duh
+# rysiekohyprlandots
+folder must be in your home dir and named myhyprlanddocs and also you need to be on Arch Linux for install.sh to work
+pkg that install.sh instals (if you only copy docs you will need it) : 
+        -nordzy-cursors #xcursorpkg (AUR) 
+        -nordzy-hyprcursors #hyprcursor version( still AUR) 
         -hyprcursor
         -hyprlancher
         -ags-hyprpanel-git #AUR
@@ -19,4 +18,5 @@ nordzy-cursors #xcursorpkg (AUR)
         -cliphist
         -iwgtk
         -hyprls-git #AUR
-        -udiskie
+        -udiskie #its optional but it auto mounts flash drivers
+Gtk theme is https://github.com/EliverLara/Nordic
