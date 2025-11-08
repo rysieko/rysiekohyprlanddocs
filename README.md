@@ -1,5 +1,5 @@
 # rysiekohyprlandots
-folder must be in your home dir and named myhyprlanddocs and also you need to be on Arch Linux for install.sh to work
+folder must be in your home dir and named rysiekohyprlanddocs and also you need to be on Arch Linux for install.sh to work
 pkg that install.sh instals (if you only copy docs you will need it) : 
         -nordzy-cursors #xcursorpkg (AUR) 
         -nordzy-hyprcursors #hyprcursor version( still AUR) 
