@@ -1,2 +1,2 @@
 # myhyprlanddocs
-idk
+folder must be in your home dir
