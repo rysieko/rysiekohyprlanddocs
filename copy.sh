@@ -1,10 +1,10 @@
 !#/bin/bash
-echo "czy chcesz skopiować pliki? 
-select y in Tak Nie
+echo "Copy config? 
+select y in yes no
 do
 case $y in
-"Tak") cp -rf ~/myhyprlanddocs/* ~/.config/hypr/* ;;
-"Nie") echo "Jak nie to nie" && exit ;;
-*) echo "Wybierz Tak lub Nie";;
+"yes") cp -rf ~/myhyprlanddocs/* ~/.config/hypr/* ;;
+"no") echo "if no than no" && exit ;;
+*) echo "chose an coreect option";;
 esac
 done
