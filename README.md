@@ -1,0 +1,2 @@
+# myhyprlanddocs
+idk
