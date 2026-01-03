@@ -1,7 +1,7 @@
 #!/bin/bash 
 cd ${HOME}
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
-sudo pacman -S hyprland hyprpaper hyprpicker hyprlauncher kitty nemo hyprlock cliphist hypridle xdg-desktop-portal-hyprland xdg-desktop-portal-gtk pipewire wireplumber udiskie nemo-fileroller nemo-fileroller gnome-disk-partition-utility spotify spotify-cli steam hyprpicker matugen brightnessctl vesktop nwg-look
+sudo pacman -S hyprland hyprpaper hyprpicker hyprlauncher kitty nemo hyprlock cliphist hypridle xdg-desktop-portal-hyprland xdg-desktop-portal-gtk pipewire wireplumber udiskie nemo-fileroller nemo-fileroller gnome-disk-partition-utility spotify spotify-cli steam hyprpicker matugen brightnessctl vesktop nwg-look gamescope lutris gamemode
 yay -S millennium ags-hyprpanel-git ttf-noto-nerd nordzy-cursor nordzy-hyprcursor   
 cd /usr/share/themes && sudo wget https://github.com/EliverLara/Nordic/releases/download/v2.2.0/Nordic.tar.xz && sudo tar -xf Nordic.tar.xz && sudo rm Nordic.tar.xz
 cd ${HOME}
