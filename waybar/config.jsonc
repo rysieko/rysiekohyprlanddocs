@@ -9,11 +9,11 @@
     "modules-left": [
         "cpu",
         "memory",
-        "custom/media"
-        "temperature",
+        "custom/media",
+        "temperature"
     ],
     "modules-center": [
-        "hyprland/workspaces",
+        "hyprland/workspaces"
     ],
     "modules-right": [
         "mpd",
@@ -21,11 +21,11 @@
         "pulseaudio",
         "network",
         "tray",
-        "clock",
+        "clock"
     ],
     "hyprland/workspaces": {
         "persistent-workspaces": {
-        "*" : 5,
+        "*" : 5
     }
 },
     "idle_inhibitor": {
@@ -37,7 +37,7 @@
     },
     "tray": {
         // "icon-size": 21,
-        "spacing": 10,
+        "spacing": 10
         // "icons": {
         //   "blueman": "bluetooth",
         //   "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
@@ -102,6 +102,6 @@
         "escape": true,
         "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
         // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
-    },
+    } // machine kill yourself machine
     
 }
